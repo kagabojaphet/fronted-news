@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.updated{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:9999;
+    background:green;
+    padding:30px;
+    transform: translate(-50%,-50%);
+}
+body{
+    font-size: 62.5%;
+}
+.getone-container{
+    background: pink;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.get-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: fuchsia;
+}
+.tables{
+    background: white;
+    padding: 2rem ;
+}
+.tables td img{
+    width: 100px;
+    height: 100px;
+}
+.tables th{
+    font-size: rem;
+}
+.tables td{
+    font-size: .4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+} 

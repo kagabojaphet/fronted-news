@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background: palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 3rem 0; */
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    padding: 2rem 0;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+ul li{
+    list-style-type: none;
+}
+ul li {
+    position: relative;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    height: 100%;
+    padding: 2rem;
+    transition: .5s;
+    color: black;
+    font-weight: 600;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li a:hover{
+    background: rgb(163, 85, 111);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   
+
+}
+ul li ul.drop-down li{
+    display: block;
+}
+ul li ul.drop-down{
+    display: none;
+    background: palevioletred;
+    z-index: 999;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ul li:hover ul.drop-down {
+display: block;
+}
+.menu{
+    display: flex;
+}
+
+.menu i {
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+.menu i:hover{
+    background: white;
+    border-radius: 3px;
+    padding: 2rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+.menu p{
+    border-radius: 3px;
+    padding: 2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu p:hover{
+    background: rgb(163, 85, 111);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+section{
+    background: white;
+    width: 100%;
+   height: 100vh;
+}
+iframe{
+    background-color: rgb(231, 213, 219);
+    margin-top: 9rem;
+}

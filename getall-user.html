@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/getall-user.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css">
+</head>
+<body>
+    <div class="getone-container">
+        <div class="get-one">
+            <form action="" method="post" class="delete">
+                <div class="delete-box">
+                    <label for="">ID:</label>
+                    <input type="text" class="delete-id">
+                    <button type="submit">delete</button>
+                </div>
+            </form>
+            <form action="" method="post" class="updated">
+                <div class="input-box">
+                    <label for="">Firstname:</label>
+                    <input type="text" name="firstname" id="firstname" >
+                </div>
+                <div class="input-box">
+                    <label for="">Lastname:</label>
+                    <input type="text" name="lastName" id="lastname">
+                </div>
+                <div class="input-box">
+                    <label for="">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="input-box">
+                <button type="submit">update</button>
+                </div>
+                
+
+            </form>
+            <h3>Get All user</h3>
+          
+            <table border="1px" class="tables">
+                <tr>
+                    <th>No</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Role</th>
+                    <th>CreateAt</th>
+                    <th colspan="2">Option</th>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+    </div>
+    <script src="./js/getalluser.js"></script>
+    <script src=""></script>
+</body>
+</html>
